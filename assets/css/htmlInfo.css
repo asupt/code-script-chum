@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
     box-sizing: border-box;
 }
 
@@ -31,10 +31,7 @@ nav ul li{
     height:100vh;
 
 }
-.subject{
-    border: 3px solid black;
-    width: 50%;
-}
+
 
 h2{
     padding-bottom: 10px;
@@ -42,6 +39,26 @@ h2{
     justify-content: flex-start;
     font-weight: bold;
     font-size: 35px;
+}
+
+.subject{
+    border: 3px solid black;
+    width: 50%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+section .subject #define{
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+section .subject #terms{
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
 }
 
 
@@ -61,12 +78,13 @@ section{
 
 }
 
-.resources{
+ .resources{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     border: 3px solid black;
     width: 50%;
+    height: 500px;
     
 }
 .resources div #id {
