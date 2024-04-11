@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 25%;
+    width: 100%;
+    background-color: yellow;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 4% 4% 4%
+}
+
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+
+}
+
+.main {
+    background-color: beige;
+    padding: 10px;
+    height:100vh;
+
+}
+.subject{
+    border: 3px solid black;
+    width: 50%;
+}
+
+h2{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+
+.subject p {
+    padding-bottom: 20px;
+    word-spacing: 5px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid black
+
+}
+
+.resources{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid black;
+    width: 50%;
+    
+}
+.resources div #id {
+    display: flex;
+    justify-content: space-between;
+
+ }
+
+aside{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+footer{
+    height: 25%;
+    width: 100%;
+
+}
