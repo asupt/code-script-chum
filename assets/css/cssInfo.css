@@ -17,12 +17,20 @@ nav{
     justify-content: space-between;
     padding: 30px 4% 4% 4%
 }
+ i{
+    padding: 20px
+    
+}
 
 nav ul li{
     display: inline-block;
     text-decoration: none;
     padding: 15px;
 
+}
+div .gcse-search-gsc-control-cse gsc-control-cse-en{
+    padding: 0;
+    border: 0px;
 }
 
 .main {
@@ -88,3 +96,5 @@ footer{
     width: 100%;
 
 }
+
+
