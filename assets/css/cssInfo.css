@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Poppins", sans-serif;
     box-sizing: border-box;
 }
 
@@ -11,6 +11,11 @@
     background-color: rgb(34, 109, 250);
 }
 
+h1 {
+    font-size: 100px;
+    font-style: italic;
+}
+
 nav{
     display: flex;
     align-items: center;
@@ -18,7 +23,10 @@ nav{
     padding: 30px 4% 4% 4%
 }
  i{
-    padding: 20px
+    padding: 20px;
+    font-size: 110px;
+    
+   
     
 }
 
@@ -90,6 +98,8 @@ aside{
     width: 50%;
     flex-wrap: wrap;
 }
+
+
 
 footer{
     height: 25%;
