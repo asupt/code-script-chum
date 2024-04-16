@@ -1,247 +1,61 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-
-<title>Code-Script Chum</title>
-
-<style>
-<!--
- /* Font Definitions */
- @font-face
-{font-family:"Cambria Math"}
-@font-face
-{font-family:Calibri;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-parent:"";
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:6.0pt;
-	margin-left:0in;
-	line-height:117%;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:"Calibri",sans-serif;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;
-	color:black;}
-a:link, span.MsoHyperlink
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	color:#085296;
-	text-decoration:underline;
-	text-underline:single;}
-a:visited, span.MsoHyperlinkFollowed
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	color:#954F72;
-	text-decoration:underline;
-	text-underline:single;}
-p.msonormal0, li.msonormal0, div.msonormal0
-	{mso-style-name:msonormal;
-	mso-style-unhide:no;
-	mso-margin-top-alt:auto;
-	margin-right:0in;
-	mso-margin-bottom-alt:auto;
-	margin-left:0in;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;}
-p.msochpdefault, li.msochpdefault, div.msochpdefault
-	{mso-style-name:msochpdefault;
-	mso-style-unhide:no;
-	mso-margin-top-alt:auto;
-	margin-right:0in;
-	mso-margin-bottom-alt:auto;
-	margin-left:0in;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Calibri",sans-serif;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;}
-p.msopapdefault, li.msopapdefault, div.msopapdefault
-	{mso-style-name:msopapdefault;
-	mso-style-unhide:no;
-	mso-margin-top-alt:auto;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:0in;
-	line-height:106%;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman",serif;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;}
-.MsoChpDefault
-	{mso-style-type:export-only;
-	mso-default-props:yes;
-	font-size:10.0pt;
-	mso-ansi-font-size:10.0pt;
-	mso-bidi-font-size:10.0pt;
-	font-family:"Calibri",sans-serif;
-	mso-ascii-font-family:Calibri;
-	mso-hansi-font-family:Calibri;
-	mso-bidi-font-family:Calibri;
-	mso-font-kerning:0pt;
-	mso-ligatures:none;}
-.MsoPapDefault
-	{mso-style-type:export-only;
-	margin-bottom:8.0pt;
-	line-height:106%;}
-@page Section1
-	{size:8.5in 11.0in;
-	margin:1.0in 1.0in 1.0in 1.0in;
-	mso-header-margin:.5in;
-	mso-footer-margin:.5in;
-	mso-paper-source:0;}
-div.Section1
-	{page:Section1;}
--->
-</style>
-<!--[if gte mso 10]>
-<style>
- /* Style Definitions */
- table.MsoNormalTable
-	{mso-style-name:"Table Normal";
-	mso-tstyle-rowband-size:0;
-	mso-tstyle-colband-size:0;
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-parent:"";
-	mso-padding-alt:0in 5.4pt 0in 5.4pt;
-	mso-para-margin-top:0in;
-	mso-para-margin-right:0in;
-	mso-para-margin-bottom:8.0pt;
-	mso-para-margin-left:0in;
-	line-height:106%;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:"Calibri",sans-serif;}
-</style>
-<![endif]-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/homePage.css">
+    <title>Code Script Chum</title>
 </head>
 
-<body
+<body>
+    <div class="header">
+        <nav>
+			<img src="assets/images/main-icon.png" alt="Main Icon"
+				width="336" 
+     			height="100">
+            
+            <ul>
+                <li><a href="homePage.html">Home</a></li>
+                <li><a href="htmlInfo.html">HTML</a></li>
+                <li><a href="cssInfo.html">CSS</a></li>
+                <li><a href="jsInfo.html">JavaScript</a></li>
+            </ul>
+            <div class="gcse-search"></div>
+        </nav>
+    </div>
+    <section class="main">
+        <div class="subject">
+            <img src="assets/images/logo.png" alt="Main Icon"
+				width="490" 
+     			height="37">
+          
+            <p id="summary">A collection of guides and tips for beginner front-end coding/scripting, from the students' point of view.
+            </p>
+        </div>
+        <div class="resources">
+            <h2>Resources</h2>
+            <div>
+            <a id="resources" href="https://www.codecademy.com/learn/learn-html" alt="codecademy">
+                <h3>Codecademy</h3>
+            </a>
+            <a id="resources" href="https://github.com/search?q=html+language%3AHTML&type=repositories&l=HTML" alt="github">
+                <h3>Github</h3>
+            </a>
+            <a id="resources" href="https://developer.mozilla.org/en-US/docs/Web/HTML" alt="mdn-web-docs">
+                <h3>MDN web Docs</h3>
+            </a>
+            <a id="resources" href="https://www.w3schools.com/html/default.asp" alt="w3">
+                <h3>W3 Schools</h3>
+            </a>
+            </div>       
 
-<div class=Section1>
+            <footer class="footer">Bonus Content</footer>
 
-<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 align=left
- width=645 style='width:484.1pt;mso-cellspacing:0in;mso-yfti-tbllook:1184;
- mso-table-lspace:2.25pt;mso-table-rspace:2.25pt;mso-table-anchor-vertical:
- paragraph;mso-table-anchor-horizontal:column;mso-table-left:left;mso-padding-alt:
- 0in 0in 0in 0in'>
- <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:38.3pt'>
-  <td width=6 style='width:4.5pt;padding:0in 0in 0in 0in;height:38.3pt'></td>
-  <td width=4 style='width:2.95pt;padding:0in 0in 0in 0in;height:38.3pt'></td>
-  <td width=633 style='width:474.65pt;padding:0in 0in 0in 0in;height:38.3pt'></td>
-  <td width=3 style='width:2.0pt;padding:0in 0in 0in 0in;height:38.3pt'></td>
- </tr>
- <tr style='mso-yfti-irow:1;height:47.65pt'>
-  <td style='padding:0in 0in 0in 0in;height:47.65pt'></td>
-  <td colspan=3 valign=top style='padding:0in 0in 0in 0in;height:47.65pt'>
-  <p class=MsoNormal style='margin-bottom:8.0pt;line-height:106%;mso-element:
-  frame;mso-element-frame-hspace:2.25pt;mso-element-wrap:around;mso-element-anchor-vertical:
-  paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly'><span
-  style='font-size:12.0pt;line-height:106%;font-family:"Times New Roman",serif;
-  mso-fareast-font-family:"Times New Roman";color:windowtext;mso-no-proof:yes'><img
-  width=632 height=61 id="_x0000_i1029" src="assets/homePage_files/image001.png"
-  alt="Place holder for Nav Pane"></span><span style='font-size:12.0pt;
-  line-height:106%;font-family:"Times New Roman",serif;mso-fareast-font-family:
-  "Times New Roman";color:windowtext'><o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:2;height:10.3pt'>
-  <td style='padding:0in 0in 0in 0in;height:10.3pt'></td>
-  <td style='padding:0in 0in 0in 0in;height:10.3pt'></td>
-  <td style='padding:0in 0in 0in 0in;height:10.3pt'></td>
-  <td style='padding:0in 0in 0in 0in;height:10.3pt'></td>
- </tr>
- <tr style='mso-yfti-irow:3;height:39.3pt'>
-  <td style='padding:0in 0in 0in 0in;height:39.3pt'></td>
-  <td colspan=3 valign=top style='padding:0in 0in 0in 0in;height:39.3pt'>
-  <p class=MsoNormal style='margin-bottom:8.0pt;line-height:106%;mso-element:
-  frame;mso-element-frame-hspace:2.25pt;mso-element-wrap:around;mso-element-anchor-vertical:
-  paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly'><span
-  style='font-size:12.0pt;line-height:106%;font-family:"Times New Roman",serif;
-  mso-fareast-font-family:"Times New Roman";color:windowtext;mso-no-proof:yes'><img
-  width=632 height=51 id="_x0000_i1028" src="assets/homePage_files/image002.png"
-  alt="Place holder for Search Function"></span><span style='font-size:12.0pt;
-  line-height:106%;font-family:"Times New Roman",serif;mso-fareast-font-family:
-  "Times New Roman";color:windowtext'><o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:4;height:16.5pt'>
-  <td style='padding:0in 0in 0in 0in;height:16.5pt'></td>
-  <td style='padding:0in 0in 0in 0in;height:16.5pt'></td>
-  <td style='padding:0in 0in 0in 0in;height:16.5pt'></td>
-  <td style='padding:0in 0in 0in 0in;height:16.5pt'></td>
- </tr>
- <tr style='mso-yfti-irow:5;height:128.55pt'>
-  <td style='padding:0in 0in 0in 0in;height:128.55pt'></td>
-  <td colspan=3 valign=top style='padding:0in 0in 0in 0in;height:128.55pt'>
-  <p class=MsoNormal style='margin-bottom:8.0pt;line-height:106%;mso-element:
-  frame;mso-element-frame-hspace:2.25pt;mso-element-wrap:around;mso-element-anchor-vertical:
-  paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly'><span
-  style='font-size:12.0pt;line-height:106%;font-family:"Times New Roman",serif;
-  mso-fareast-font-family:"Times New Roman";color:windowtext;mso-no-proof:yes'><img
-  width=632 height=165 id="_x0000_i1027" src="assets/homePage_files/image003.png"
-  alt="Code-Script Chum"></span><span style='font-size:12.0pt;line-height:106%;
-  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
-  color:windowtext'><o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:6;height:2.0pt'>
-  <td style='padding:0in 0in 0in 0in;height:2.0pt'></td>
-  <td style='padding:0in 0in 0in 0in;height:2.0pt'></td>
-  <td style='padding:0in 0in 0in 0in;height:2.0pt'></td>
-  <td style='padding:0in 0in 0in 0in;height:2.0pt'></td>
- </tr>
- <tr style='mso-yfti-irow:7;height:55.9pt'>
-  <td style='padding:0in 0in 0in 0in;height:55.9pt'></td>
-  <td style='padding:0in 0in 0in 0in;height:55.9pt'></td>
-  <td valign=top style='padding:0in 0in 0in 0in;height:55.9pt'>
-  <p class=MsoNormal style='margin-bottom:8.0pt;line-height:106%;mso-element:
-  frame;mso-element-frame-hspace:2.25pt;mso-element-wrap:around;mso-element-anchor-vertical:
-  paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly'><span
-  style='font-size:12.0pt;line-height:106%;font-family:"Times New Roman",serif;
-  mso-fareast-font-family:"Times New Roman";color:windowtext;mso-no-proof:yes'><img
-  width=625 height=72 id="_x0000_i1026" src="assets/homePage_files/image004.png"
-  alt="A collection of guides and tips for beginner front-end coding/scripting, from the students' point of view."></span><span
-  style='font-size:12.0pt;line-height:106%;font-family:"Times New Roman",serif;
-  mso-fareast-font-family:"Times New Roman";color:windowtext'><o:p></o:p></span></p>
-  </td>
-  <td style='padding:0in 0in 0in 0in;height:55.9pt'></td>
- </tr>
- <tr style='mso-yfti-irow:8;height:17.55pt'>
-  <td style='padding:0in 0in 0in 0in;height:17.55pt'></td>
-  <td style='padding:0in 0in 0in 0in;height:17.55pt'></td>
-  <td style='padding:0in 0in 0in 0in;height:17.55pt'></td>
-  <td style='padding:0in 0in 0in 0in;height:17.55pt'></td>
- </tr>
- <tr style='mso-yfti-irow:9;mso-yfti-lastrow:yes;height:197.55pt'>
-  <td style='padding:0in 0in 0in 0in;height:197.55pt'></td>
-  <td colspan=3 valign=top style='padding:0in 0in 0in 0in;height:197.55pt'>
-  <p class=MsoNormal style='margin-bottom:8.0pt;line-height:106%;mso-element:
-  frame;mso-element-frame-hspace:2.25pt;mso-element-wrap:around;mso-element-anchor-vertical:
-  paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly'><a
-  href="../Pub/html.html"><span style='font-size:12.0pt;line-height:106%;
-  font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
-  mso-no-proof:yes;text-decoration:none;text-underline:none'><img border=0
-  width=632 height=254 id="_x0000_i1025" src="assets/homePage_files/image005.png"
-  alt="	Topics: &#13;&#10;	HTML&#13;&#10;	CSS&#13;&#10;	JavaScript&#13;&#10;	Tips and Tricks&#13;&#10;"></span></a><span
-  style='font-size:12.0pt;line-height:106%;font-family:"Times New Roman",serif;
-  mso-fareast-font-family:"Times New Roman";color:windowtext'><o:p></o:p></span></p>
-  </td>
- </tr>
-</table>
-
-<p class=MsoNormal>&nbsp;</p>
-
-</div>
+<script async src="https://cse.google.com/cse.js?cx=b39eefead6bd94aa7">
+</script>
 
 </body>
 
