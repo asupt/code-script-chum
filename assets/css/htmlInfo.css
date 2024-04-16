@@ -144,7 +144,7 @@ section #examples{
     background-color: transparent;
     font-weight: 800;
     font-size: 25px;
-    z-index: 100;
+    z-index: auto;
 }
 
 .ex-container {
