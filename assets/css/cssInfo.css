@@ -11,16 +11,17 @@ i{
     font-size: 110px;
 }
 
+
 .main {
     background-color: black;
     padding: 10px;
-    height:100vh;
+    height:auto;
 
 }
 .subject{
     border: 3px solid black;
     width: 50%;
-    font-size: 25px;
+    font-size: 20px;
 }
 section .subject #define{
     margin-left: 10px;
@@ -91,7 +92,7 @@ section{
 
  #github img{
     max-width: 20%;
-    max-height: 50%;
+    max-height: auto;
  }
 
  #mdn img{
@@ -101,7 +102,7 @@ section{
 
  #w3 img {
     max-width: 20%;
-    max-height: 50%;
+    max-height: auto;
  }
 
  section #examples{
@@ -144,6 +145,7 @@ section{
     font-weight: 800;
     font-size: 30px;
     z-index: auto;
+ 
 }
 
 .ex-container {
@@ -164,7 +166,7 @@ h4{
     background-image:url(../images/tic-tac-toe\ css.png);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center; */
+    
     
 }
 .w3-ex {
@@ -185,13 +187,15 @@ h4{
     .main {
         flex-direction: column;
         flex-wrap: wrap;
-        font-size: 50%;
+        font-size: auto;
     }
 }
 
 @media screen and (max-width:768px) {
     .resources{
         flex-direction: column;
+        flex-wrap: wrap;
+        font-size: auto;
         
     }
 }
@@ -199,6 +203,8 @@ h4{
 @media screen and (max-width:768px) {
     .examples{
         flex-direction: column;
+        flex-wrap: wrap;
+        font-size: auto;
     }
 }
     

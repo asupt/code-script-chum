@@ -1,38 +1,17 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: "poppins", sans-serif;
-    box-sizing: border-box;
-}
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css";
 
-.header{
-    height: 25%;
-    width: 100%;
-    background-color: yellow;
-}
-h1 {
-    font-size: 70px;
-    font-style: italic;
-    text-shadow: 1px 1px 2px black;
+
+.title {
     
+    font-size: 100px;
+    font-style: italic;
+
 }
 i{
-    padding-left: 10px;
+padding: 20px;
+font-size: 110px;
 }
 
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px 4% 4% 4%
-}
-
-nav ul li{
-    display: inline-block;
-    text-decoration: none;
-    padding: 15px;
-
-}
 
 .main {
     background-color: beige;
@@ -44,6 +23,7 @@ nav ul li{
     border: 3px solid black;
     width: 50%;
     height:auto;
+    font-size: 20px;
     
 }
 
@@ -121,12 +101,14 @@ section{
 
  #github img{
     max-width: 20%;
-    max-height: 50%;
+    max-height: auto;
+    
  }
 
  #mdn img{
     max-width: 20%;
     max-height: auto;
+    
  }
 
  #w3 img {
