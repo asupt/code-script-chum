@@ -169,6 +169,14 @@ h3{
     background-position: center;
 }
 
+.build-game {
+    background-image: url(../images/build-game.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
  
 
 footer{
