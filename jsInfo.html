@@ -9,24 +9,57 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/jsInfo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma-rtl.min.css">
     <title>Code Script Chum</title>
 </head>
 
 <body>
-    <div class="header">
-        <nav>
-            <h1>JavaScript<i class="fa-brands fa-js"></i></h1>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#html"></a>HTML</li>
-                <li><a href="#css"></a>CSS</li>
-                <li><a href="#js"></a>JavaScript</li>
-
-            </ul>
-            <div class="gcse-search"></div>
-        </nav>
-    </div>
-    <section class="main">
+    <nav class="navbar is-warning" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="">
+            <h1 class="title has-text-dark">JavaScript<i class="fa-brands fa-js"></i></h1>
+            
+          </a>
+      
+          
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            
+                
+                <hr class="navbar-divider">
+                
+              </div>
+            </div>
+          </div>
+      
+          <div class="navbar-end">
+            <div class="navbar-item">
+                <a class="navbar-item has-background-warning">
+                    Home
+                  </a>
+            
+                  <a class="navbar-item has-background-warning">
+                    HTML
+                  </a>
+            
+                  
+                  <a class="navbar-item has-background-warning">
+                      CSS
+                  </a>
+            
+                    
+                  <a class="navbar-item has-background-warning">
+                        JavaScript
+                  </a>
+                  <div class="gcse-search"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <section class="main has-background-black has-text-white">
         <div class="subject">
             <h2>What is JavaScript</h2>
             <p id="define">JavaScript is a programming language that adds interactivity to your website. This happens in games, in the behavior of responses when buttons are pressed or with data entry on forms; with dynamic styling; with animation, etc. This article helps you get started with JavaScript and furthers your understanding of what is possible.
@@ -43,7 +76,7 @@
 
             
         </div>
-        <div class="resources">
+        <div class="resources has-background-black has-text-white">
             <h2>Resources</h2>
             <a id="codecademy" href="https://www.codecademy.com/catalog/language/javascript?g_network=g&g_productchannel=&g_adid=624951457597&g_locinterest=&g_keyword=javascript%20codecademy&g_acctid=243-039-7011&g_adtype=&g_keywordid=kwd-320553373671&g_ifcreative=&g_campaign=account&g_locphysical=9053011&g_adgroupid=128133969988&g_productid=&g_source={sourceid}&g_merchantid=&g_placement=&g_partition=&g_campaignid=1955172604&g_ifproduct=&utm_id=t_kwd-320553373671:ag_128133969988:cp_1955172604:n_g:d_c&utm_source=google&utm_medium=paid-search&utm_term=javascript%20codecademy&utm_campaign=US_Brand_Exact&utm_content=624951457597&g_adtype=search&g_acctid=243-039-7011&gad_source=1&gclid=CjwKCAjwoPOwBhAeEiwAJuXRh0FBEE7tAhJBHI1ho4i6YMIoSmxdvKVT4xJRQJPb-ZK9xknfXDbq5RoCjugQAvD_BwE" alt="codecademy">
                 <!-- <h3>Codecademy</h3> -->
@@ -51,7 +84,7 @@
             </a>
             <a id="github" href="https://github.com/topics/javascript" alt="github">
                 <!-- <h3>Github</h3> -->
-                
+                <img src="../code-script-chum/assets/images/github.png" alt="github">
             </a>
             <a id="mdn" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" alt="mdn-web-docs">
                 <!-- <h3>MDN Web Docs</h3> -->
@@ -63,10 +96,10 @@
             </a>
         </div> 
         <section id="examples">
-            <div class="banner">
+            <div class="banner has-background-black has-text-white">
                 <h3>Examples</h3>
             </div>
-            <div class="ex-container" >
+            <div class="ex-container has-background-black" >
                 <a class="js-robot" href="https://lab.reaal.me/jsrobot/#level=1&language=en" alt="js robot game"> <div>
                 <h4>JavaScript Robot</h4>
                 </div>

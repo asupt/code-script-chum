@@ -1,40 +1,6 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: "Poppins", sans-serif;
-    box-sizing: border-box;
-}
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css";
 
-.header{
-    height: 100px;
-    width: 100%;
-    background-color: white;
-}
 
-h1 {
-    font-size: 60px;
-    font-style: italic;
-    text-shadow: 1px 1px 2px black;
-}
-
-i{
-    font-size: 100px;
-}
-
-nav{
-    top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0% 4% 4% 4%;
-}
-
-nav ul li{
-    display: inline-block;
-    text-decoration: none;
-    padding: 15px;
-
-}
 
 .main {
     background-color: beige;
