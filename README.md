@@ -11,7 +11,7 @@ URL: https://o0nexus.github.io/code-script-chum/
 
 Google for Developers [Programmable Search Engine]: https://developers.google.com/custom-search/
 
-Google for Developers [YouTub]: https://developers.google.com/youtube
+Google for Developers [YouTube]: https://developers.google.com/youtube
 
 Youtube API starter template modified from: https://medium.com/@cmurphy580/a-quick-walkthrough-of-the-youtube-api-javascript-4f0b0a13f988
 
