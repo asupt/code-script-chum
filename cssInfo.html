@@ -1,5 +1,6 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 
 <head>
     <meta charset="UTF-8">
@@ -8,26 +9,60 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="./assets/css/cssInfo.css">
     <title>Code Script Chum</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma-rtl.min.css">
 </head>
 
 <body>
-    <div class="header">
-        <nav>
-            <h1>CSS<i class="fa-brands fa-css3-alt"></i></h1>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#html"></a>HTML</li>
-                <li><a href="#css"></a>CSS</li>
-                <li><a href="#js"></a>JavaScript</li>
+    <nav class="navbar is-link" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="">
+            <h1 class="title has-text-dark">CSS<i class="fa-brands fa-css3-alt has-text-dark"></i></h1>
+            
+          </a>
+      
+          
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            
                 
-
-            </ul>
-            <div class="gcse-search"></div>
-        </nav>
-    </div>
-    <section class="main">
+                <hr class="navbar-divider">
+                
+              </div>
+            </div>
+          </div>
+      
+          <div class="navbar-end">
+            <div class="navbar-item">
+                <a class="navbar-item has-background-link">
+                    Home
+                  </a>
+            
+                  <a class="navbar-item has-background-link">
+                    HTML
+                  </a>
+            
+                  
+                  <a class="navbar-item has-background-link">
+                      CSS
+                  </a>
+            
+                    
+                  <a class="navbar-item has-background-link">
+                        JavaScript
+                  </a>
+                  <div class="gcse-search"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section class="main has-text-white has-background-black">
         <div class="subject">
             <h2>What is CSS</h2>
             <p id="define">CSS (Cascading Style Sheets) allows you to create great-looking web pages, but how does it work? 
@@ -41,7 +76,7 @@
 
             
         </div>
-        <div class="resources">
+        <div class="resources has-background-black">
             <h2>Resources</h2>
             <a id="codecademy" href="https://www.codecademy.com/learn/learn-css" alt="codecademy">
                 <!-- <h3>Codecademy</h3> -->
@@ -64,7 +99,7 @@
             <div class="banner">
                 <h3>Examples</h3>
             </div>
-            <div class="ex-container" >
+            <div class="ex-container " >
                 <a class="tic-tac" href="https://codepen.io/alvaromontoro/pen/BexWOw" alt="tic-tac"> <div>
                 <h4>Tic-Tac-Toe using only css</h4>
                 </div>
@@ -79,22 +114,30 @@
                
             </div>
         </section> 
-        <!-- <aside class="examples">
-            <a id="example" href="" alt="example">Ex 1</a>
-            <a id="example" href="#" alt="example">Ex 1</a>
-            <a id="example" href="#" alt="example">Ex 1</a>
-            <a id="example" href="https://www.w3schools.com/css/css_examples.asp" alt="example">Ex 1</a>
-        </aside> -->
-
-
-
-
-
-    </section>
-
-
-
-    <footer class="footer">Bonus Content</footer>
+        <footer class="footer has-background-black">
+            Bonus Content
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn">Enjoying this website?</button>
+        
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+        
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <form>
+                    <label for="feedbackBox">Give us some feedback!</label><br>
+                    <input type="text" id="feedbackBox"><br>
+                    <input type="button" value="Submit" id="submitButton">
+                </form>
+            </div>
+        
+            </div>
+        </footer>
+  
+  
+    
+    </script>
     <script async src="https://cse.google.com/cse.js?cx=b39eefead6bd94aa7">
     </script>
     

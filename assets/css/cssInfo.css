@@ -1,45 +1,18 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: "Poppins", sans-serif;
-    box-sizing: border-box;
-}
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css";
 
-.header{
-    height: 25%;
-    width: 100%;
-    background-color: rgb(34, 109, 250);
+.title {
+    
+        font-size: 100px;
+        font-style: italic;
+    
 }
-
-h1 {
-    font-size: 100px;
-    font-style: italic;
-}
-
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px 4% 4% 4%
-}
- i{
+i{
     padding: 20px;
     font-size: 110px;
 }
 
-nav ul li{
-    display: inline-block;
-    text-decoration: none;
-    padding: 15px;
-
-}
-div .gcse-search-gsc-control-cse gsc-control-cse-en{
-    padding: 0;
-    border: 0px;
-}
-
 .main {
-    background-color: beige;
+    background-color: black;
     padding: 10px;
     height:100vh;
 
@@ -47,6 +20,7 @@ div .gcse-search-gsc-control-cse gsc-control-cse-en{
 .subject{
     border: 3px solid black;
     width: 50%;
+    font-size: 25px;
 }
 section .subject #define{
     margin-left: 10px;
@@ -101,7 +75,8 @@ section{
     justify-content: space-between;
     border: 3px solid black;
     width: 50%;
-    background-color: gray;
+    background-color: yellow;
+    
     
 }
 .resources div  {
@@ -138,7 +113,7 @@ section{
     border: 3px solid black;
     flex-wrap: wrap;
     height: auto;
-}
+ }
 
 #examples .ex-container {
     display: flex;
@@ -204,6 +179,8 @@ h4{
     background-size: cover;
 }
 
+
+
 @media screen and (max-width:768px) {
     .main {
         flex-direction: column;
@@ -226,13 +203,13 @@ h4{
 }
     
 
-
-
-
 footer{
-    height: 25%;
+    height: auto;
     width: 100%;
-
+    /* position: fixed; */
+    background-color: white;   
+    bottom: 0; 
+    border: 2px solid black;
 }
 
 
