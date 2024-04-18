@@ -8,7 +8,14 @@ I want a site that compiles topics relevant to my course work.
 So that I can quickly and accurately find material to aid in my studies.
 
 ## Acceptance Criteria
-*
+*Given a study resource site
+*When I want to learn more about a core topic
+*Then I can easily navigate to a topic page
+*When I go to that page
+*Then I will find resources, topic, videos, and examples on that subject
+*When I cant find material to help 
+*Then I can use the Youtube or Google API's to gather more information inside the site
+
 ## Description
 
 A collection of guides and tips for beginner front-end coding/scripting, from the students' point of view.
