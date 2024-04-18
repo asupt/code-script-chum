@@ -1,40 +1,19 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: "Poppins", sans-serif;
-    box-sizing: border-box;
-}
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css";
 
-.header{
-    height: 100px;
-    width: 100%;
-    background-color: lightcoral;
-}
 
-h1 {
-    font-size: 60px;
-    font-style: italic;
-    text-shadow: 1px 1px 2px black;
-}
 
-i{
+.title {
+    
     font-size: 100px;
-}
-
-nav{
-    top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0% 4% 4% 4%;
-}
-
-nav ul li{
-    display: inline-block;
-    text-decoration: none;
-    padding: 15px;
+    font-style: italic;
 
 }
+i{
+padding: 20px;
+font-size: 110px;
+}
+
+
 
 .main {
     background-color: beige;
@@ -75,12 +54,12 @@ section .subject #terms{
 
 
 
-.subject p {
+/* .subject p {
     padding-bottom: 20px;
     word-spacing: 5px;
     margin-top: 10px;
     width: 50%;
-}
+} */
 
 section{
     display: flex;
@@ -99,10 +78,31 @@ section{
     height: 50%;
     margin-bottom: 200px;
 }
-.resources div #id {
+.resources div  {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 
+ }
+
+ #codecademy img {
+    max-width: 20%;
+    max-height: auto;
+ }
+
+ #github img{
+    max-width: 20%;
+    max-height: 50%;
+ }
+
+ #mdn img{
+    max-width: 20%;
+    max-height: auto;
+ }
+
+ #w3 img {
+    max-width: 20%;
+    max-height: 50%;
  }
 
 section #examples{
@@ -154,9 +154,9 @@ section #examples{
     flex-basis: 77%;
     padding-left: 1px;
 }
-h4{
+h3{
     font-weight: bold;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px white;
 }
 
 .cat-app {
@@ -178,7 +178,7 @@ h4{
 footer{
     height: auto;
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     background-color: white;   
     bottom: 0; 
     border: 2px solid black;
