@@ -176,9 +176,11 @@ h3{
  
 
 footer{
+    margin-left: -98px;
     height: auto;
-    width: 100%;
-    /* position: fixed; */
+    width: 196px;
+    position: fixed;
+    left: 50%;
     background-color: white;   
     bottom: 0; 
     border: 2px solid black;
@@ -208,6 +210,7 @@ footer{
     padding: 20px;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
+    color: black;
   }
   
   /* The Close Button */
