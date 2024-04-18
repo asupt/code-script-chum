@@ -18,7 +18,7 @@ font-size: 110px;
 .main {
     background-color: beige;
     padding: 10px;
-    height: 100vh;
+    height: auto;
 
 }
 
