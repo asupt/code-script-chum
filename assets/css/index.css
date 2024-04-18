@@ -5,8 +5,11 @@
     width: 175px;
     margin:0;
     font-size: 100px;
+    }
+.tm {
     
-}
+    margin-left: 170px;
+} 
 
 .main {
     background-color: black;
