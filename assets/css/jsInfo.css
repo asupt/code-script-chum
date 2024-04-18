@@ -14,7 +14,6 @@ font-size: 110px;
 
 
 .main {
-    background-color: beige;
     padding: 10px;
     height:auto;
 
@@ -97,23 +96,27 @@ section{
  #codecademy img {
     max-width: 20%;
     max-height: auto;
+    border-radius: 12px;
  }
 
  #github img{
     max-width: 20%;
     max-height: auto;
+    border-radius: 12px;
     
  }
 
  #mdn img{
     max-width: 20%;
     max-height: auto;
+    border-radius: 12px;
     
  }
 
  #w3 img {
     max-width: 20%;
     max-height: 50%;
+    border-radius: 12px;
  }
 
 
@@ -194,7 +197,13 @@ h4{
     background-image: url(../images/elevator\ saga.png);
     background-size: cover;
 }
-
+@media screen and (max-width:768px) {
+    .navbar {
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: auto;
+    }
+}
 @media screen and (max-width:768px) {
     .main {
         flex-direction: column;

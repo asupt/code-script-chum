@@ -13,7 +13,6 @@ i{
 
 
 .main {
-    background-color: black;
     padding: 10px;
     height:auto;
     
@@ -87,21 +86,25 @@ section{
  #codecademy img {
     max-width: 20%;
     max-height: auto;
+    border-radius: 12px;
  }
 
  #github img{
     max-width: 20%;
     max-height: auto;
+    border-radius: 12px;
  }
 
  #mdn img{
     max-width: 20%;
     max-height: auto;
+    border-radius: 12px;
  }
 
  #w3 img {
     max-width: 20%;
     max-height: auto;
+    border-radius: 12px;
  }
 
  section #examples{
@@ -180,7 +183,13 @@ h4{
     background-image: url(../images/flexbox\ frog\ css.png);
     background-size: cover;
 }
-
+@media screen and (max-width:768px) {
+    .navbar {
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: auto;
+    }
+}
 
 
 @media screen and (max-width:768px) {
