@@ -1,7 +1,22 @@
 // localStorage.clear();
 
+const pageType = document.querySelector(".title").textContent;
+let searchTerms;
+
 // youtube api random video modified from cmurphy's guide (check readme)
-const searchTerms = ["factory%20functions","data%20structures", "array%20functions%20javascript", "composition%20over%20inheritance", "lambda%20functions", "streams%20java", "higher%20order%functions%javascript", "functional%20programming", "c++%20lambda%20functions", "sorting%20algorithms"];
+// conditional to see which page we're on:
+if (pageType == "HTML") {
+  searchTerms = ["html%20beginner","html%20linking", "html%20header", "html%20images", "html%20images%20tags%20attributes", "html%20block%20inline", "html%20form", "html%20classes", "semantic%20html", "html%20link%20stylesheets"];
+}
+
+else if (pageType == "CSS") {
+  searchTerms = ["css%20how","css%20flexbox", "css%20elements%20and%20ids", "css%20pseudo", "css%20box%20model", "css%20layout", "css%20selectors", "css%20practices", "css%20grids", "targeting%20css"];
+}
+
+else {
+  searchTerms = ["javascript%20beginner","javascript%20data%20types", "javascript%20objects", "javascript%20arrays", "javascript%20logic", "javascript%20conditionals", "javascript%20functions", "javascript%20loops", "javascript%20localstorage", "javascript%20api%20beginners"];
+}
+
 const getSearchTerm = () => searchTerms[Math.floor(Math.random() * (searchTerms.length-1))];
 const YOUTUBE_API_KEY = "AIzaSyA7vm3AcQsqgmrz8NUd5H4yOMMhpOaz3fU";
 const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=1&q=${getSearchTerm()}&key=${YOUTUBE_API_KEY}`;
