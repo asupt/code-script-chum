@@ -55,12 +55,7 @@ section .subject #terms{
 
 
 
-/* .subject p {
-    padding-bottom: 20px;
-    word-spacing: 5px;
-    margin-top: 10px;
-    width: 50%;
-} */
+
 
 section{
     display: flex;
