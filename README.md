@@ -7,6 +7,8 @@ I want a site that compiles topics relevant to my course work.
 
 So that I can quickly and accurately find material to aid in my studies.
 
+## Acceptance Criteria
+*
 ## Description
 
 A collection of guides and tips for beginner front-end coding/scripting, from the students' point of view.
